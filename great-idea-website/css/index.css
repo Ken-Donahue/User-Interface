@@ -70,10 +70,18 @@ body{
 	margin:0 auto;
 }
 
+nav{
+	font-family: 'Lobster', cursive;
+	background:rgba(0,191,255,.7);
+	position:fixed;
+	top:0;
+	width:80%;
+}
+
 a{
 	color:grey;
 	display:inline-block;
-	width:10%;
+	min-width:9%;
 	margin:10px 2% 10px 0;
 	text-decoration:none;
 	text-align:center;
@@ -82,12 +90,13 @@ a{
 .logo{
 	display:inline-block;
 	width:20%;
+	max-width:150px;
 	margin-top:5px;
 	float:right;
 }
 
 header{
-	margin:20px 0 40px 0;
+	margin:40px 0 40px;
 }
 
 .heading{
@@ -97,9 +106,9 @@ header{
 }
 
 header img{
-	display:inline-block;
 	width:35%;
 	max-width:175px;
+	margin-top:30px;
 	float:right;
 	
 }
@@ -107,13 +116,13 @@ header img{
 h1{
 	font-size:36px;
 	text-align:center;
-	margin-top:20px;
+	margin-top:50px;
 }
 
 button{
 	background:white;
 	display:inline-block;
-	width:37%;
+	min-width:37%;
 	margin:0px auto 0;
 	font-size:10px;
 	text-align:center;
@@ -125,8 +134,8 @@ button{
 	width:45%;
 }
 
-.features{
-	margin-right:9%;
+.about{
+	float:right;
 }
 
 .middle-img{
@@ -140,7 +149,11 @@ button{
 }
 
 .product{
-	margin:0 4% 40px;
+	margin:0 0 30px 4%;
+}
+
+.vision{
+	float:right;
 }
 
 .contact{
